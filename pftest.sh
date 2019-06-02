@@ -9,7 +9,6 @@ fi
 red='\033[0;31m'
 green='\033[0;32m'
 reset='\033[0m' # No Color
-printf "I ${red}love${reset} Stack Overflow\n"
 
 tables=`pfctl -vvsTables | grep "-" | awk '{print $2}' | grep -v "ALTQ"`
 
